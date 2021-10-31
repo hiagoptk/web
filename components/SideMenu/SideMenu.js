@@ -7,12 +7,12 @@ const SideMenu = () => {
     return (
         <div id="sideMenu" className={styles.asideMenu}>
             <button className={styles.closebtn} >&times;</button>
-            <p className={styles.itemMenu}><Link href="/"> Home </Link> <FaHome /></p>
-            <p className={styles.itemMenu}><Link href="/tarot"> Tarot  </Link><CgCardSpades/></p>
-            <p className={styles.itemMenu}><Link href="/" >Artes </Link> <FaPaintBrush /> </p>
-            <p className={styles.itemMenu}><Link href="/reiki">Reiki </Link> <FaHandSparkles /> </p>
-            <p className={styles.itemMenu}><Link href="/bruxaria">Bruxaria </Link> <FaStar /> </p>
-            <p className={styles.itemMenu}><Link href="/portifolio">Portifolio</Link> <FaCode /></p>
+            <p className={styles.itemMenu}><Link href="/" passHref> Home </Link> <FaHome /></p>
+            <p className={styles.itemMenu}><Link href="/tarot"passHref> Tarot  </Link><CgCardSpades/></p>
+            <p className={styles.itemMenu}><Link href="/" passHref>Artes </Link> <FaPaintBrush /> </p>
+            <p className={styles.itemMenu}><Link href="/reiki"passHref>Reiki </Link> <FaHandSparkles /> </p>
+            <p className={styles.itemMenu}><Link href="/bruxaria" passHref>Bruxaria </Link> <FaStar /> </p>
+            <p className={styles.itemMenu}><Link href="/portifolio" passHref>Portifolio</Link> <FaCode /></p>
         </div>  
     );
 }

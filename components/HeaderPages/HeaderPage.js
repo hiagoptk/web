@@ -9,7 +9,7 @@ const HeaderPage = () => {
     return (
         <navbar className="nav-black">
             <nav className="menu">
-                <Link href="/"><h3 className="title">Hiago <FaSun className="sun"/> Patrick</h3></Link>
+                <Link href="/" passHref><h3 className="title">Hiago <FaSun className="sun"/> Patrick</h3></Link>
                 <button id="menuBtn" className="show" ><FaBars/></button>
             </nav>
             <SideMenu id="aside" />
