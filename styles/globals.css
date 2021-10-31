@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cuprum&family=Syne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&family=Jolly+Lodger&family=Syne&display=swap');
 
 html,
 body {
@@ -11,7 +11,7 @@ p {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Cuprum', sans-serif; 
+  font-family: 'Jolly Lodger', cursive
 }
 
 a {

@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import '../pages/tarot/style.css'
+
 import "../components/HeaderPages/HeaderPage.css"
 import '../components/FooterPages/FooterPage.css'
 
