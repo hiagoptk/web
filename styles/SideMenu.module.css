@@ -1,0 +1,77 @@
+ 
+.asideMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    width: 100%;
+    max-width: 420px;
+    visibility: visible;
+    height: 100vh;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 104, 107, 0.918);
+    overflow-x: hidden;
+    position: fixed;
+}
+
+.show {
+    visibility: visible;
+    
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.asideMenu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+.asideMenu a {
+    font-size: 1.5em;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+@media screen and (min-width: 450px) {
+    #sideMenu {
+        padding-top: 15px;
+    }
+
+    #sideMenu a {
+        font-size: 18px;
+    }
+
+}
+
+.menu #menuBtn {
+    background-color: transparent;
+    font-size: 1.5em;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    padding-top: 10px;
+    color: antiquewhite;
+}
+
+.menu #menuBtn:hover {
+    cursor: pointer;
+}
+
+.itemMenu{
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+    border-bottom: 1px solid ;
+    font-family: 'Cuprum', sans-serif;
+}
