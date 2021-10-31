@@ -6,7 +6,7 @@ import Link from 'next/dist/client/link';
 const SideMenu = () => {
     return (
         <div id="sideMenu" className={styles.asideMenu}>
-            <a className={styles.closebtn} >&times;</a>
+            <button className={styles.closebtn} >&times;</button>
             <p className={styles.itemMenu}><Link href="/"> Home </Link> <FaHome /></p>
             <p className={styles.itemMenu}><Link href="/tarot"> Tarot  </Link><CgCardSpades/></p>
             <p className={styles.itemMenu}><Link href="/" >Artes </Link> <FaPaintBrush /> </p>

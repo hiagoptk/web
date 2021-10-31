@@ -33,6 +33,12 @@
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    background-color: transparent;
+    color: antiquewhite;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
   }
 
 .asideMenu a {
