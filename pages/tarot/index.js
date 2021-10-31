@@ -18,13 +18,13 @@ const Tarot = () => {
 
                 <form id="fs-frm" name="department-contact-form" acceptCharset="utf-8" className={styles.form} action="https://formspree.io/f/mayagnrd" method="post">
                     <fieldset id="fs-frm-inputs">
-                        <label for="full-name">Seu nome completo</label>
+                        <label htmlFor="full-name">Seu nome completo</label>
                         <input type="text" name="name" id="full-name" placeholder="Primeiro e Ultimo" required=""/>
                         <br/>
                         <label htmlFor="email-address">Email</label><br/>
                         <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""/>
                         <br/>
-                        <label for="department">Assunto</label><br/>
+                        <label htmlFor="department">Assunto</label><br/>
                             <select name="department" id="department" required="">
                                 <option value="Select" selected="" disabled="">Leitura...</option>
                                 <option value="Leitura Geral">Leitura Geral</option>
@@ -33,7 +33,7 @@ const Tarot = () => {
                                 <option value="Mandala Astrológica">Mandala Astrológica </option>
                             </select>
                         <br/>
-                        <label for="message">Message</label><br/>
+                        <label htmlFor="message">Message</label><br/>
                         <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
                     </fieldset>
                     <input className={styles.btnForm} type="submit" value="Send Message"/>
