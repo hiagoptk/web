@@ -19,9 +19,9 @@ const Tarot = () => {
                 <form id="fs-frm" name="department-contact-form" accept-charset="utf-8" className={styles.form} action="https://formspree.io/f/mayagnrd" method="post">
                     <fieldset id="fs-frm-inputs">
                         <label for="full-name">Seu nome completo</label>
-                        <input type="text" name="name" id="full-name" placeholder="Primeiro e Ultimo" required=""/>
+                        <input type="text" name="name" class="ola" id="full-name" placeholder="Primeiro e Ultimo" required=""/>
                         <br/>
-                        <label for="email-address">Email Address</label><br/>
+                        <label for="email-address">Email</label><br/>
                         <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""/>
                         <br/>
                         <label for="department">Assunto</label><br/>

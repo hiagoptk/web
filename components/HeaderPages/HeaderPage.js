@@ -30,7 +30,7 @@ const HeaderPage = () => {
                 <button id="menuBtn" className="show" onClick={openNav}><FaBars/></button>
             </nav>
             <div id="sideMenu" className="asideMenu">
-                <a href="javascript:void(0)" class="closebtn" onClick={closeNav}>&times;</a>
+                <a href="" class="closebtn" onClick={closeNav}>&times;</a>
                 <p className="itemMenu"><Link href="/" > Home  </Link> <FaHome /></p>
                 <p className="itemMenu"><Link href="/tarot" > Tarot  </Link><CgCardSpades/></p>
                 <p className="itemMenu"><Link href="/" className="itemMenu">Artes </Link> <FaPaintBrush /> </p>
